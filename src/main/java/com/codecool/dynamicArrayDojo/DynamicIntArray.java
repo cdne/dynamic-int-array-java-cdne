@@ -30,7 +30,7 @@ public class DynamicIntArray {
     /**
      * Remove element from array
      *
-     * Remove element in array when si found and throw an exception when you want to remove an element that doesn't
+     * Remove element in array when is found and throw an exception when you want to remove an element that doesn't
      * exist in current array
      * @param element you want remove from array
      */
