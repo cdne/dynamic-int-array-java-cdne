@@ -18,7 +18,7 @@ public class DynamicIntArray {
      *
      * Store the current array in a new temp array with size great than current array + 1
      * Add element to temp array and assign the entire temp array to current array after adding required element
-     * @param element what element to add
+     * @param element to add
      */
     public void add(int element){
         int[] tempArray = new int[currentArray.length + 1];
@@ -32,7 +32,7 @@ public class DynamicIntArray {
      *
      * Remove element in array when si found and throw an exception when you want to remove an element that doesn't
      * exist in current array
-     * @param element element you want remove from array
+     * @param element you want remove from array
      */
     public void remove(int element){
         try {
@@ -60,7 +60,7 @@ public class DynamicIntArray {
      * on i position + 1
      *
      * @param position where you want to insert element
-     * @param element element to be inserted
+     * @param element to be inserted
      */
     public void insert(int position, int element){
         int[] tempArray = new int[currentArray.length + 1];
