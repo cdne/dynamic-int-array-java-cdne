@@ -5,7 +5,7 @@ import java.util.Arrays;
 // put your code here!
 public class DynamicIntArray {
 
-    int[] currentArray = new int[0];
+    private int[] currentArray = new int[0];
 
     DynamicIntArray(){}
 
